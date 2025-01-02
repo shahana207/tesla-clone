@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  scroll-behavior: smooth;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.nav-container {
+  position: fixed;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 20px;
+  height: 80px;
+  color: #ffff;
+  z-index: 1000;
+}
+.nav-container ul {
+  display: flex;
+  list-style: none;
+  gap: -2px;
+  font-size: 15px;
+}
+.nav-container li {
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+.logo {
+  width: 100px;
+  height: 90px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
+.banner {
+  width: 100%;
+}
+.nav-list > a {
+  text-decoration: none;
+  width: 2rem;
+  padding: 6px 7px;
+  color: white;
+  font-weight: var(--font-weight);
+}
+.header-container h1 {
+  color: #ffff;
+}
+.header-container {
+  width: 500px;
+  font-size: 30px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.buttons {
+  color: black;
+  justify-content: center;
+  display: flex;
+}
+
+.buttons a {
+  margin: 10px;
+  height: 40px;
+  width: 15rem;
+  border-radius: 0.5rem;
+  color: rgb(38, 37, 37);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button1 {
+  background-color: #fff;
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.button2 {
+  background-color: #fff;
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.banner2 {
+  display: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/tesla2.avif");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+
+.firstimage {
+  height: 860 px;
+}
+.firstimage img {
+  width: 100%;
+}
+.second-header {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.second-header h1 {
+  font-size: 45px;
+}
+.second-header h2 {
+  font-size: 30px;
+}
+
+.buttons2 {
+  color: black;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.buttons2 a {
+  margin: 10px;
+  height: 40px;
+  width: 15rem;
+  border-radius: 0.5rem;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.buttons2 a:first-child {
+  background-color: blue;
+  color: #fff;
+}
+.banner3 {
+  display: relative;
+  top: -30px;
+  background-image: url("/img/tesla3.avif");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position-y: -10px;
+}
+.second-header h3 {
+  font-size: 20px;
+}
+.three-header {
+  font-size: 30px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.buttons3 {
+  color: black;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: 385px;
+}
+
+.buttons3 a {
+  margin: 10px;
+  height: 40px;
+  width: 15rem;
+  border-radius: 0.5rem;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 1rem;
+}
+.header-container {
+  width: 500px;
+  font-size: 30px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.buttons3 a:first-child {
+  background-color: blue;
+  color: #fff;
+}
+.banner4 {
+  display: relative;
+  top: -30px;
+  background-image: url("img/tesla4.avif");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position-y: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons3 {
+  color: black;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: 385px;
+}
+.second-banner-btn {
+  display: flex;
+  margin-top: 500px;
+}
+.second-banner-btn a {
+  margin: 10px;
+  height: 40px;
+  width: 15rem;
+  border-radius: 0.5rem;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 1rem;
+}
+.second-banner-btn a:first-child {
+  background-color: blue;
+  color: #fff;
+}
+.banner5 {
+  display: relative;
+  top: -30px;
+  background-image: url("img/tesla5.avif");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position-y: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner6 {
+  display: relative;
+  top: -30px;
+  background-image: url("img/tesla6.avif");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position-y: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons3 {
+  color: black;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: 385px;
+}
+.second-banner-btn {
+  display: flex;
+  margin-top: 500px;
+}
+.second-banner-btn a {
+  margin: 10px;
+  height: 40px;
+  width: 15rem;
+  border-radius: 0.5rem;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 1rem;
+}
+.cybertruck a {
+  background-color: rgb(9, 9, 9);
+  color: #e0d4d4;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 900;
+  text-decoration: none;
+}
+.cybertruck {
+  margin-top: 400px;
+}
+
+.banner7 {
+  display: relative;
+  top: -30px;
+  background-image: url("img/tesla7.avif");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position-y: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner8 {
+  display: relative;
+  top: -30px;
+  background-image: url("img/tesla8.avif");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position-y: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner9 {
+  display: relative;
+  top: -30px;
+  background-image: url("img/tesla9.avif");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position-y: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner10 {
+  display: relative;
+  top: -30px;
+  background-image: url("img/tesla10.avif");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position-y: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-flex {
+  margin-top: 50px;
+}
+.footer {
+  background-color: white;
+}
+.text1 p {
+  font-size: 30px;
+  color: rgb(76, 71, 71);
+  text-align: center;
+  font-size: 10px;
+}
+.text2 p {
+  font-size: 30px;
+  color: rgb(76, 71, 71);
+  text-align: center;
+  font-size: 10px;
+}
+.text3 p {
+  font-size: 30px;
+  color: rgb(76, 71, 71);
+  text-align: center;
+  font-size: 10px;
+}
+.text4 p {
+  font-size: 30px;
+  color: rgb(76, 71, 71);
+  text-align: center;
+  font-size: 10px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+}
+.footer-nav ul {
+  background-color: rgb(251, 249, 249);
+  display: flex;
+  display: inline;
+  list-style: none;
+  gap: -2px;
+  font-size: 13px;
+}
+
+.footer-nav li {
+  color: rgb(76, 71, 71);
+  text-align: center;
+  display: inline;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+}
